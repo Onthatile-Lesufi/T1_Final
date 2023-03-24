@@ -1,0 +1,291 @@
+nav {
+    width: 100%;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 122px;
+    padding-right: 122px;
+}
+
+footer p {
+    float: left;
+    padding-left: 18px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form {
+    height: 500px;
+    background-color: lightgray;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+form h3 {
+    margin-bottom: 30px;
+}
+
+form textarea {
+  height: 90px;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.pages {
+    float: left;
+    margin-left: 75px;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.page {
+    float: left;
+    margin-right: 40px;
+    font-size: 18px;
+    color: black;
+}
+
+.page:hover {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.search {
+    float: right;
+    margin-top: 30px;
+}
+
+.search input {
+    font-size: 18px;
+    width: 255px;
+    height: 50px;
+    border-radius: 55px;
+    padding-left: 20px;
+    background-color: unset;
+}
+
+.cover-img {
+    width: 100%;
+    height: 900px;
+    background-color: lightgrey;
+    margin-bottom: 580px;
+}
+
+.cover-page {
+    height: 200px;
+    width: 750px;
+    padding-top: 300px;
+    margin-left: 150px;
+}
+
+.cover-page h3{
+    font-size: 36px;
+}
+
+.cover-page h1{
+    font-size: 72px;
+}
+
+.button-group {
+    height: 70px;
+    margin-top: 70px;
+}
+
+.play {
+    height: 70px;
+    width: 225px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border-radius: 60px;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.play:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.shuffle {
+    height: 70px;
+    width: 225px;
+    text-align: center;
+    border: 3px solid black;
+    font-size: 24px;
+    border-radius: 60px;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.shuffle:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.button-group .play {
+    float: left;
+    margin-right: 50px;
+}
+
+.button-group .shuffle {
+    float: left;
+    margin-right: 40px;
+}
+
+.button-group .heart {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+}
+
+.heart {
+    cursor: pointer;
+}
+
+.featured {
+    height: 560px;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 540px;
+}
+
+.vid {
+    position: absolute;
+    height: 390px;
+    width: 584px;
+    float: left;
+    background-color: darkgray;
+    z-index: 2;
+}
+
+.feature-artist {
+    
+    width: 800px;
+    height: 560px;
+    float: right;
+    background-color: rgb(241, 239, 239);
+    padding-left: 175px;
+    padding-top: 50px;
+    z-index: 1;
+}
+
+.feature-artist h3 {
+    font-size: 24px;
+}
+
+.feature-artist h1 {
+    font-size: 48px;
+    padding-top: 10px;
+}
+
+.feature-artist p {
+    font-size: 18px;
+    padding-top: 35px;
+    padding-right: 150px;
+}
+
+.directions {
+    margin-top: 150px;
+    float: right;
+    height: 50px;
+    margin-right: 10px;
+    float: right;
+}
+
+.direction {
+    float: left;
+    margin-right: 20px;
+}
+
+.social-media {
+    float: right;
+    width: 280px;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.album-row {
+    padding-left: 122px;
+    padding-right: 122px;
+}
+
+.album-row h3 {
+    margin-bottom: 40px;
+}
+
+.small-cover {
+    width: 277px;
+    height: 277px;
+    background-color: lightgray;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.popular {
+    margin-top: 50px;
+}
+
+.information {
+    height: 500px;
+    width: auto;
+    margin-top: 175px;
+    padding-left: 122px;
+    padding-right: 122px;
+}
+
+.map {
+    height: 200px;
+    background-color: grey;
+}
+
+.input-elm {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    color: white;
+    background-color: gray;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    border: 0px;
+}
+
+.submit {
+    width: 225px;
+    height: 60px;
+    border-radius: 40px;
+    float: right;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
