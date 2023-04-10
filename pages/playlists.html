@@ -8,33 +8,39 @@
     <!--External Documents-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    
     <!--Internal Documents-->
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <nav>
-        <div class="logo">STREAM</div>
+        <a href="../index.html"><div class="logo" style="color: white;">STREAM</div></a>
         <div class="pages">
-            <div class="page">Recent Releases</div>
-            <div class="page">Popular Albums</div>
-            <a href="../pages/about.html"><div class="page">About Label</div></a>
-            <a href="../pages/playlists.html"><div class="page"><strong>My Playlists</strong></div></a>
+            <div class="page" style="color: white;">Recent Releases</div>
+            <div class="page"style="color: white;">Popular Albums</div>
+            <a href="../pages/about.html"><div class="page" style="color: white;">About Label</div></a>
+            <a href="../pages/playlists.html"><div class="page" style="color: white;"><strong>My Playlists</strong></div></a>
         </div>
         <input class="search" type="search" placeholder="Search...">
     </nav>
 
     <div class="container">
         <div class="row playlist">
-            <h3>My Playlists</h3>
+            <h3 style="font-family: 'Rock Salt', cursive; color: white;">My Playlists</h3>
             <div class="col-5 cover">
                 <div class="big-cover">
-                    <p style="font-size:64px;">FAVOURITES<br style="font-size:48px;">MIX</p>
+                    <div class="overlay">
+                        <p style="font-size:64px;">FAVOURITES<br style="font-size:48px;">MIX</p>
+                    </div>
                 </div>
             </div>
             <div class="col-7">
                 <div class="collections">
-                    <div class="playlists">My Favourites</div>
+                    <div class="active-playlist">My Favourites</div>
                     <div class="playlists">Classic Mix</div>
                     <div class="playlists">Suggestion Mix</div>
                 </div>
@@ -47,45 +53,45 @@
                     </div>
                     <div class="song">
                         <div class="song-num">1</div>
-                        <div class="song-title"><p><strong>BROKEN GIRLS</strong><br>Saba</p></div>
-                        <div class="song-album">CARE FOR ME</div>
-                        <div class="song-time">4:37</div>
-                        <div class="gizmo"></div>
+                        <div class="song-title"><p><strong>Glass Flows</strong><br>Smino, Ravyn Lenae</p></div>
+                        <div class="song-album">blkswn</div>
+                        <div class="song-time">3:08</div>
+                        <div class="gizmo"><img src="../assets/options_table_icon.svg"></div>
                     </div>
                     <div class="song">
-                        <div class="song-num">2</div>
+                        <div class="song-num"><img src="../assets/currently_playing_icon.svg"></div>
                         <div class="song-title"><p><strong>everybody dies</strong><br>J. Cole</p></div>
                         <div class="song-album">everybody dies</div>
                         <div class="song-time">2:42</div>
-                        <div class="gizmo"></div>
+                        <div class="gizmo"><img src="../assets/options_table_icon.svg"></div>
                     </div>
                     <div class="song">
                         <div class="song-num">3</div>
-                        <div class="song-title"><p><strong>Unknown - EP Version</strong><br>Ravyn Lenae</p></div>
-                        <div class="song-album">Midnight Moonlight EP</div>
-                        <div class="song-time">3:18</div>
-                        <div class="gizmo"></div>
+                        <div class="song-title"><p><strong>MF GROOVE (with Ravyn Lenae)</strong><br>Smino, Ravyn Lenae</p></div>
+                        <div class="song-album">Noir</div>
+                        <div class="song-time">4:06</div>
+                        <div class="gizmo"><img src="../assets/options_table_icon.svg"></div>
                     </div>
                     <div class="song">
                         <div class="song-num">4</div>
-                        <div class="song-title"><p><strong>Unknown - EP Version</strong><br>Ravyn Lenae</p></div>
-                        <div class="song-album">Midnight Moonlight EP</div>
-                        <div class="song-time">3:18</div>
-                        <div class="gizmo"></div>
+                        <div class="song-title"><p><strong>California (feat. Ravyn Lenae...</strong><br>Saba, Ravyn Lenae, Pheolix</p></div>
+                        <div class="song-album">Bucket List Project</div>
+                        <div class="song-time">6:23</div>
+                        <div class="gizmo"><img src="../assets/options_table_icon.svg"></div>
                     </div>
                     <div class="song">
                         <div class="song-num">5</div>
-                        <div class="song-title"><p><strong>Unknown - EP Version</strong><br>Ravyn Lenae</p></div>
-                        <div class="song-album">Midnight Moonlight EP</div>
-                        <div class="song-time">3:18</div>
-                        <div class="gizmo"></div>
+                        <div class="song-title"><p><strong>Lauder Too (feat. Ravyn Lenae...</strong><br>JID, Ravyn Lenae, Eryn Allen Kane</p></div>
+                        <div class="song-album">The Forever Story</div>
+                        <div class="song-time">3:53</div>
+                        <div class="gizmo"><img src="../assets/options_table_icon.svg"></div>
                     </div>
                     <div class="song">
                         <div class="song-num">6</div>
-                        <div class="song-title"><p><strong>Unknown - EP Version</strong><br>Ravyn Lenae</p></div>
-                        <div class="song-album">Midnight Moonlight EP</div>
-                        <div class="song-time">3:18</div>
-                        <div class="gizmo"></div>
+                        <div class="song-title"><p><strong>Settle Down (with Cory Henry...</strong><br>Smino, Cory Henry, Ravyn Lenae</p></div>
+                        <div class="song-album">Luv 4 Rent</div>
+                        <div class="song-time">3:03</div>
+                        <div class="gizmo"><img src="../assets/options_table_icon.svg"></div>
                     </div>
                 </div>
             </div>
@@ -98,15 +104,15 @@
             </div>
             <div class="playing-now">
                 <div class="play-cover"></div>
-                <p class="play-title"><strong>SONG TITLE</strong><br>Artist</p>
+                <p class="play-title"><strong>everybody dies</strong><br>J. Cole</p>
             </div>
             <div class="controls">
-                <div class="left-button"><img src="../assets/left_arrow_icon.svg"></div>
+                <div class="left-button"><img src="../assets/previous_icon.svg"></div>
                 <div class="play-button"><img src="../assets/play_icon.svg"></div>
-                <div class="right-button"><img src="../assets/right_arrow_icon.svg"></div>
+                <div class="right-button"><img src="../assets/next_icon.svg"></div>
             </div>
-            <div class="play-time">11:11</div>
-            <div class="gizmo"></div>
+            <div class="play-gizmo"><img src="../assets/options_media_icon.svg"></div>
+            <div class="play-time">01:06</div>
         </div>
     </div> 
 </body>
