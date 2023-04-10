@@ -419,6 +419,12 @@ div h3 {
     padding-top: 10px;
 }
 
+.playing-song {
+    float: left;
+    margin-right: 8.5%;
+    padding-top: 10px;
+}
+
 .song-title {
     float: left;
     width: 35%;
